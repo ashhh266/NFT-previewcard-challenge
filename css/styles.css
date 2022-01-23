@@ -1,0 +1,163 @@
+
+
+body {
+  background-color: #0d192b;
+  color: #ffffff;
+  font-family: 'Outfit', sans-serif;
+}
+
+p {
+  color: #8bacda;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-left: 15px;
+  margin-top: 0;
+  opacity: 80%;
+  text-align: left;
+}
+
+hr {
+  border: 1px 0 0;
+  border-color: #2f415b;
+  border-style: solid;
+  width: 250px;
+}
+
+h3 {
+  font-stretch: extra-condensed;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+h3:hover {
+  color: #00fff7;
+}
+
+.container {
+  background-color: #14253d;
+  border-radius: 8px;
+  height: 500px;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  top: 150px;
+  width: 280px;
+}
+
+.img {
+  border-radius: 8px;
+  display: flex;
+  height: 250px;
+  margin-bottom:5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+  top: 15px;
+  width: 250px;
+}
+
+.equilibrium {
+  border-radius: 8px;
+  display: block;
+  height: 250px;
+  width: 250px;
+}
+
+.img-overlay {
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #00fff7;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: 0.25s;
+}
+
+.img-overlay:hover {
+  opacity: 60%;
+}
+
+.icon-view{
+  position: relative;
+  top: 40%;
+  left: 40%;
+}
+
+.jules {
+display: block;
+float: left;
+height: 30px;
+width: 30px;
+border: solid;
+border-width: thin;
+border-color: #ffffff;
+border-radius: 25px;
+margin-left: 15px;
+margin-top: 10px;
+}
+
+.tag{
+display: inline-block;
+position: relative;
+margin-top: 15px;
+margin-left: 10px;
+}
+
+.name {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.name:hover {
+  color: #00fff7;
+}
+
+.tim {
+  display: inline;
+  margin-right: 15px;
+  position: relative;
+  text-align: right;
+}
+
+.time {
+  display: inline-block;
+  margin-left: 1px;
+  text-align: right;
+}
+
+.clock-icon {
+  margin-left: 70px;
+  position: relative;
+  top: 3px;
+}
+
+.eth {
+  display: inline;
+  text-align: left;
+}
+
+.price {
+  color: #00fff7;
+  display: inline;
+  margin-left: 1px;
+  text-align: left;
+}
+
+.ethereum-icon {
+  margin-left: 15px;
+  height: 12px;
+  width: 8px;
+}
+
+.attribution {
+  position: fixed;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #2f415b;
+  text-decoration: none;
+}
